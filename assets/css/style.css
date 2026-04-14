@@ -162,7 +162,7 @@ ul { list-style: none; }
 }
 .nav-logo { flex-shrink: 0; }
 .logo-img {
-  height: 102px;
+  height: 152px;
   width: auto;
   filter: drop-shadow(0 2px 8px rgba(0,0,0,.4));
 }
@@ -897,7 +897,7 @@ ul { list-style: none; }
   padding-bottom: 48px;
 }
 .footer-logo {
-  height: 56px;
+  height: 112px;
   width: auto;
   margin-bottom: 16px;
 }
