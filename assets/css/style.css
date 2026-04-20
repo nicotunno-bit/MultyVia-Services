@@ -145,14 +145,14 @@ ul { list-style: none; }
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 1000;
-  padding: 16px 0;
+  padding: 8px 0;
   transition: background var(--transition), box-shadow var(--transition), padding var(--transition);
 }
 #header.scrolled {
   background: rgba(8,17,61,.97);
   backdrop-filter: blur(12px);
   box-shadow: var(--shadow-md);
-  padding: 10px 0;
+  padding: 5px 0;
 }
 
 .navbar {
@@ -162,7 +162,7 @@ ul { list-style: none; }
 }
 .nav-logo { flex-shrink: 0; }
 .logo-img {
-  height: 52px;
+  height: 70px;
   width: auto;
   filter: drop-shadow(0 2px 8px rgba(0,0,0,.4));
 }
@@ -217,7 +217,7 @@ ul { list-style: none; }
   align-items: center;
   position: relative;
   overflow: hidden;
-  padding-top: 90px;
+  padding-top: 86px;
 }
 
 .hero-bg-shapes { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
