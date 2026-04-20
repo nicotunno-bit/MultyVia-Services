@@ -801,14 +801,10 @@ ul { list-style: none; }
   transform: translateY(-2px);
 }
 
-.quick-contact { margin-top: 32px; display: flex; flex-direction: column; gap: 10px; }
-.quick-contact-label {
-  font-size: .75rem;
-  font-weight: 600;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,.5);
-  margin-bottom: 4px;
+.coord-group { display: flex; flex-direction: column; gap: 10px; }
+.coord-divider {
+  border-top: 1px solid rgba(255,255,255,.12);
+  margin: 20px 0;
 }
 .quick-contact-btn {
   display: flex;
@@ -855,6 +851,21 @@ ul { list-style: none; }
   border-color: rgba(255,255,255,.3);
   transform: translateX(4px);
 }
+
+.quick-contact-btn.email {
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.12);
+}
+.quick-contact-btn.email > i {
+  background: rgba(41,82,212,.3);
+  color: var(--blue-light);
+}
+.quick-contact-btn.email:hover {
+  background: var(--blue-mid);
+  border-color: var(--blue-mid);
+  transform: translateX(4px);
+}
+.quick-contact-btn.email:hover > i { background: rgba(255,255,255,.2); color: var(--white); }
 
 /* Form */
 .contact-form {
