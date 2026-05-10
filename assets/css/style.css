@@ -1107,6 +1107,7 @@ ul { list-style: none; }
   .nav-link       { font-size: 1.1rem; width: 100%; }
   .hamburger      { display: flex; }
   .nav-cta        { display: none; }
+  .logo-img       { height: 56px; }
 
   /* Hero */
   .hero-card-stack { width: 260px; height: 260px; }
